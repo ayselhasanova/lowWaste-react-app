@@ -1,0 +1,387 @@
+/* Hero */
+.hero-section {
+    margin-top: 60px;
+}
+
+.hero-img {
+    background: url(https://foodprint.org/wp-content/uploads/2018/10/food-waste-problem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+
+.overlay-hero {
+    background-color: #2f573953;
+    width: 100%;
+    height: 500px;
+    justify-content: flex-end;
+}
+
+.hero-content {
+    justify-content: flex-end;
+    color: #cafad5;
+    margin-right: 100px;
+}
+
+.bank-name {
+    margin-bottom: 5px;
+    font-size: 90px;
+    font-weight: 900;
+    justify-content: flex-end;
+}
+
+.hero-content>p {
+    font-size: 52px;
+    font-weight: 900;
+    justify-content: flex-end;
+}
+
+/* Promotion */
+.prom {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    color: #4d865a;
+}
+
+.prom-content pre {
+    margin-top: 140px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.5;
+}
+
+/* Slider start*/
+
+.slider-img {
+    background-color: #4694547d;
+    width: 100%;
+    padding: 50px;
+}
+
+.slide {
+    text-align: center;
+    padding: 20px 150px;
+}
+
+.slider {
+    margin: auto;
+    gap: 30px;
+    width: 70%;
+}
+
+.slider-content {
+    text-align: center;
+}
+
+.slider .author {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+    line-height: 0.7;
+}
+
+.slider .author img {
+    width: 120px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.red {
+    font-size: 28px;
+}
+
+.font-cookie {
+    color: #3f7d4e;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+/* Feedbacks */
+.feedbacks-section {
+    margin: 60px auto;
+    width: 60%;
+    text-align: center;
+}
+
+.feedbacks h2 {
+    display: inline-block;
+    position: relative;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #305f3b;
+}
+
+.feedbacks h2::before {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #4d865a;
+    visibility: visible;
+}
+
+.feedbacks ul {
+    width: 100%;
+}
+
+.feedbacks ul li {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.feedbacks ul li:nth-child(2n) {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.feedbacks ul li:nth-child(2n) .feedback {
+    border-radius: 10px 50px 50px 10px;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: -3px 3px 3px #ebebeb;
+}
+
+.feedbacks ul li:nth-child(2n+1) .feedback {
+    box-shadow: 3px 3px 3px #ebebeb;
+}
+
+.feedbacks ul li:nth-child(2n+1) div {
+    border-radius: 50px 10px 10px 50px;
+}
+
+.feedbacks ul li .feedback {
+    display: flex;
+}
+
+.feedbacks ul li .feedback {
+    width: 65%;
+    padding: 15px;
+    border: 1px solid #ebebeb;
+    /* box-shadow: 3px 3px 3px #ebebeb */
+}
+
+.feedbacks ul li div img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.feedbacks ul li .feedback .fb {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.feedbacks ul li .feedback .fb p {
+    line-height: 1.2;
+}
+
+.feedbacks ul li .feedback .fb div p {
+    margin: 10px 0;
+}
+
+.feedbacks ul li .feedback .fb .name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #378148;
+}
+
+.feedbacks .show-more button {
+    background-color: transparent;
+    color: #378148;
+    border: none;
+    font-size: 24px;
+    display: inline-block;
+    position: relative;
+}
+
+.feedbacks .show-more button::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 8px;
+    left: 0;
+    background-color: #4d865a;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.feedbacks .show-more button:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+.feedbacks .extra-feedback {
+    display: none;
+}
+
+
+.feedbacks.show-all .extra-feedback {
+    display: flex;
+}
+
+/* Discount  */
+#discount {
+    margin: auto;
+    width: 60%;
+    margin-bottom: 100px;
+}
+
+.discount-bg {
+    background-color: #e7e5e5d4;
+    width: 100%;
+}
+
+.discount-heading {
+    background-color: #ffffff;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+.discount-text-title:after {
+    position: absolute;
+    left: 50%;
+    top: -38px;
+    height: 183px;
+    width: 183px;
+    background: #ffffff;
+    content: "";
+    border-radius: 50%;
+    z-index: -1;
+    text-align: center;
+}
+
+
+.discount-img {
+    background: url(../../assets/img/discount.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.discount-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-heading-text {
+    line-height: 0.99;
+}
+
+.summer2019 {
+    color: #4d865a;
+    font-size: 60px;
+    font-weight: 700;
+    overflow: initial;
+    box-sizing: content-box;
+}
+
+.discount {
+    margin-top: 8px;
+    margin-bottom: -5px;
+}
+
+.sale {
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.percentage {
+    color: #4d865a;
+}
+
+.discount-content {
+    text-align: center;
+}
+
+.discount-content {
+    margin: 20px;
+}
+
+.time {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.time2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.discount-content>span {
+    margin: 10px;
+}
+
+.shopnow {
+    text-align: center;
+}
+
+.shopnow>a {
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.shopnow>a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #4d865a;
+    visibility: visible;
+}
+
+/* Statics */
+.statics-container {
+    margin: 70px auto;
+    width: 70%;
+}
+
+.statics-container h3 {
+    text-align: center;
+    color: #305f3b;
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.statics-container-icons {
+    display: flex;
+    gap: 50px;
+}
+
+.statics-container-icons li {
+    font-size: 48px;
+    color: #378148;
+    text-align: center;
+}
+
+.statics-container-icons li p {
+    margin-top: 10px;
+    font-size: 18px;
+}
