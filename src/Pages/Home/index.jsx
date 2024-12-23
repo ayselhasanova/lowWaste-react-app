@@ -286,7 +286,7 @@ const Home = () => {
             <div className="discount-heading d-flex align-items-center">
               <div className="discount-heading-text">
                 <p className="summer2019">NEW TRAINING</p>
-                <p className="discount">19 december 2024</p>
+                <p className="discount">22 january 2024</p>
               </div>
             </div>
             <div className="discount-content d-flex justify-content-center">
